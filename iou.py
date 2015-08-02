@@ -28,11 +28,11 @@ expenses = dict(
 )
 
 bank = dict(
-    who =           ['HB',  'EH'],
-    to  =           ['EH',  'JJ'],
-    amount =        [1000,  400],
-    what =          ['cash', 'food'],
-    currency =      ['CZK', 'CZK'],
+    who =           ['HB',  'EH', 'JJ'],
+    to  =           ['EH',  'JJ', 'PW'],
+    amount =        [1000,  400, 5000],
+    what =          ['cash', 'food', 'cash'],
+    currency =      ['CZK', 'CZK', 'CZK'],
 )
 
 
