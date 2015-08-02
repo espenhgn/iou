@@ -1,27 +1,28 @@
 #!/usr/bin/env python
 '''I-owe-you calculation script after hiking trip into the bohemian paradise'''
+from __future__ import division
 
 people = ['EH', 'HB', 'JJ', 'PW']
-CZK2EUR = 0.037
+CZK2EUR = 1 / 27.14
 
 
 expenses = dict(
     car = dict(
         who =       ['EH'],
-        amount =    [-3500,],
+        amount =    [-4247,],
         currency =  ['CZK']),
     gas = dict(
         who =       ['EH'],
-        amount =    [-1000,],
+        amount =    [-669,],
         currency =  ['CZK']),        
     hotel=dict(
         who  =      ['EH',  'PW'],
-        amount =    [-3600, -3600],
+        amount =    [-3690, -3690],
         currency =  ['CZK', 'CZK']
     ),
     restaurant=dict(
         who  =      ['EH',],
-        amount =    [-2000,],
+        amount =    [-1951,],
         currency =  ['CZK',]        
     )
 )
